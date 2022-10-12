@@ -60,7 +60,6 @@ public class Util1 {
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File dest = new File(path);
 		FileHandler.copy(source, dest);
-		
 		return path;
 	} 
 	
